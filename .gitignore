@@ -1,0 +1,6 @@
+env
+.env
+bot_session.session
+temp
+downloads
+.idea
