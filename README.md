@@ -1,7 +1,8 @@
 ## Generate a RapidAPI key
-1. Go to [MessengerX API](https://rapidapi.com/buildgpt-labs-buildgpt-labs-default/api/messengerx-io) on Rapid API
+1. Create your AI character via https://portal.messengerx.io
+2. Get a [MessengerX API](https://rapidapi.com/buildgpt-labs-buildgpt-labs-default/api/messengerx-io) Rapid API key
 ![figure](Assets/RapidAPI.png)
-2. Signup to get a ```RapidAPI key```
+3. Follow the steps below to launch your character on Telegram
 
 ## Create a Telegram Bot
 1. Go to [Telegram apps](https://my.telegram.org/apps) and create an app
