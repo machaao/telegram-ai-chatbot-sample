@@ -1,6 +1,9 @@
 ## Live Demo 
 https://t.me/JeanieAIGFBot
 
+![figure](Assets/jeanie_sample_telegram.jpeg)
+
+
 ## Pre Requisites
 1. Sign up for a Free [MessengerX.io](https://rapidapi.com/buildgpt-labs-buildgpt-labs-default/api/messengerx-io) Rapid API key
 2. Create a Free AI Character via https://portal.messengerx.io
