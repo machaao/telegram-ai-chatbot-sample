@@ -3,7 +3,8 @@ https://t.me/JeanieAIGFBot
 
 ## Pre Requisites
 1. Sign up for a Free [MessengerX.io](https://rapidapi.com/buildgpt-labs-buildgpt-labs-default/api/messengerx-io) Rapid API key
-2. Follow the steps below to launch a public character on Telegram
+2. Create a Free AI Character via https://portal.messengerx.io
+3. Follow the steps below to launch a public character on Telegram
 
 ## Create a Telegram Bot
 1. Go to [Telegram apps](https://my.telegram.org/apps) and create an app
@@ -13,8 +14,6 @@ https://t.me/JeanieAIGFBot
 5. Follow the instructions from the BotFather to choose a name and username for your bot
 6. Once the bot is created, ```BotFather``` will provide you with a unique ```Bot token``` for your bot. Make sure to keep this token safe, as it will be used to authenticate your bot when making API calls.
 
-## Local Setup ##
-![figure](Assets/bot_name_rapidapi.png)
 
 ### Download or clone this repository ###
 ```
@@ -38,8 +37,10 @@ BOT_TOKEN=<From Botfather>
 API_ID=<App api_id>
 API_HASH=<App api_hash>
 BOT_NAME=jeanie
-#Refer to the screenshot above for any publicly available bot name or create your own at https://portal.messengerx.io or via RapidAPI
+# Refer to the screenshot below to get your unique bot name / id via https://portal.messengerx.io
 ```
+![figure](Assets/mobile-sample-bot-id.jpeg)
+
 
 ### Run the chatbot server from the root directory of the repo ###
 ```
