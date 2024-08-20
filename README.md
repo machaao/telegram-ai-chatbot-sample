@@ -11,7 +11,7 @@
 6. Once the bot is created, ```BotFather``` will provide you with a unique ```Bot token``` for your bot. Make sure to keep this token safe, as it will be used to authenticate your bot when making API calls.
 
 ## Local Setup ##
-![figure](Assets/RapidAPI.png)
+![figure](Assets/bot_name_rapidapi.png)
 
 ### Download or clone this repository ###
 ```
