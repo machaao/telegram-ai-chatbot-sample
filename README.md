@@ -42,3 +42,5 @@ BOT_NAME=jeanie
 ```
 python main.py
 ```
+
+Demo: https://t.me/JeanieAIGFBot
