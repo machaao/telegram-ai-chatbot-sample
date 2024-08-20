@@ -18,6 +18,7 @@ api_id = os.environ["API_ID"]
 bot_token = os.environ["BOT_TOKEN"]
 api_hash = os.environ["API_HASH"]
 rapidapi_key = os.environ["RAPIDAPI_KEY"]
+bot_name = os.environ["BOT_NAME"]
 
 client = TelegramClient('bot_session', api_id, api_hash).start(bot_token=bot_token)
 
@@ -45,7 +46,7 @@ def call_machaao_rapidapi(user_id, text, image_str):
         "image": None
     }
 
-    url = "https://messengerx-io.p.rapidapi.com/process/jeanie"
+    url = f"https://messengerx-io.p.rapidapi.com/process/{bot_name}"
 
     payload = {
         "message_data": {
