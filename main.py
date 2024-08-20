@@ -69,14 +69,20 @@ def call_machaao_rapidapi(user_id, text, image_str):
 
     response = requests.post(url, json=payload, headers=headers)
     resp = response.json()
-    text = resp["output"]["output"]
-    url_prefix = "https://ganglia.machaao.com/download"
-    if url_prefix in text:
-        url_start = text.find(url_prefix)
-        url = text[url_start:]
-        text = text[:url_start]
-        output["image"] = url
-        output["text"] = text
+    _output = resp["output"]
+    text = _output["output"]
+    attachment = _output.get("attachment", None)
+
+    if attachment:
+        output["image"] = attachment.get("url")
+        output["text"] = attachment.get("text")
+        # url_prefix = "https://ganglia.machaao.com/download"
+        # if url_prefix in text:
+        #     url_start = text.find(url_prefix)
+        #     url = text[url_start:]
+        #     text = text[:url_start]
+        #     output["image"] = url
+        #     output["text"] = text
     else:
         output["text"] = text
     return output
