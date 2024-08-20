@@ -1,4 +1,4 @@
-## Generate a RapidAPI key
+## Pre Requisites
 1. Sign up for a Free [MessengerX.io](https://rapidapi.com/buildgpt-labs-buildgpt-labs-default/api/messengerx-io) Rapid API key
 ![figure](Assets/RapidAPI.png)
 2. Follow the steps below to launch a public character on Telegram
