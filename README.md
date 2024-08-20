@@ -1,7 +1,8 @@
 ## Live Demo 
 https://t.me/JeanieAIGFBot
 
-![figure](Assets/jeanie_sample_telegram.jpeg){: height="25%"}
+![figure](Assets/jeanie_sample_telegram.jpeg)
+{: height="25%"}
 
 ## Pre Requisites
 1. Sign up for a Free [MessengerX.io](https://rapidapi.com/buildgpt-labs-buildgpt-labs-default/api/messengerx-io) Rapid API key
