@@ -1,14 +1,15 @@
 ## Generate a RapidAPI key
-1. Go to https://rapidapi.com/buildgpt-labs-buildgpt-labs-default/api/messengerx-io
+1. Go to [MessengerX API](https://rapidapi.com/buildgpt-labs-buildgpt-labs-default/api/messengerx-io) on Rapid API
+![figure](Assets/RapidAPI.png)
 2. Signup to get a ```RapidAPI key```
 
 ## Create a Telegram Bot
-1. Go to https://my.telegram.org/apps and create an app
+1. Go to [Telegram apps](https://my.telegram.org/apps) and create an app
 2. You'll get an ```App api_id``` and ```App api_hash```
 3. Open the Telegram app and search for the ```BotFather``` bot
 4. Start a chat with the BotFather and use the “/newbot” command to create a new bot
 5. Follow the instructions from the BotFather to choose a name and username for your bot
-6. Once the bot is created, ```BotFather``` will provide you with a unique API token for your bot. Make sure to keep this token safe, as it will be used to authenticate your bot when making API calls.
+6. Once the bot is created, ```BotFather``` will provide you with a unique ```Bot token``` for your bot. Make sure to keep this token safe, as it will be used to authenticate your bot when making API calls.
 
 ## Local Setup ##
 ### Download or clone this repository ###
