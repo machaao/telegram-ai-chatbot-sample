@@ -15,9 +15,8 @@
 
 ### Download or clone this repository ###
 ```
-git clone https://github.com/machaao/TelegramBot.git
-
-cd TelegramBot
+git clone https://github.com/machaao/telegram-ai-chatbot-sample
+cd telegram-ai-chatbot-sample
 ```
 
 ### Install requirements ###
