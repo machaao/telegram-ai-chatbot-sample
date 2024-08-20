@@ -34,7 +34,7 @@ RAPIDAPI_KEY=<RapidAPI Token>
 BOT_TOKEN=<From Botfather>
 API_ID=<App api_id>
 API_HASH=<App api_hash>
-BOT_NAME=<Your bot name> (Refer to the screenshot above)
+BOT_NAME=jeanie #Refer to the screenshot above for any publicly avaialable bot name or create your own at https://portal.messengerx.io or via RapidAPI
 ```
 
 ### Run the chatbot server from the root directory of the repo ###
