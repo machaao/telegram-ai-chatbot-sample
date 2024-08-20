@@ -1,7 +1,7 @@
 ## Live Demo 
 https://t.me/JeanieAIGFBot
 
-![figure](Assets/jeanie_sample_telegram.jpeg)
+![figure](Assets/jeanie_sample_telegram.jpeg){: height="50%" width="50%"}
 
 
 ## Pre Requisites
