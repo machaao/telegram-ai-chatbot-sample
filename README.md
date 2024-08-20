@@ -1,6 +1,5 @@
 ## Pre Requisites
 1. Sign up for a Free [MessengerX.io](https://rapidapi.com/buildgpt-labs-buildgpt-labs-default/api/messengerx-io) Rapid API key
-![figure](Assets/RapidAPI.png)
 2. Follow the steps below to launch a public character on Telegram
 
 ## Create a Telegram Bot
@@ -12,6 +11,8 @@
 6. Once the bot is created, ```BotFather``` will provide you with a unique ```Bot token``` for your bot. Make sure to keep this token safe, as it will be used to authenticate your bot when making API calls.
 
 ## Local Setup ##
+![figure](Assets/RapidAPI.png)
+
 ### Download or clone this repository ###
 ```
 git clone https://github.com/machaao/TelegramBot.git
@@ -34,7 +35,7 @@ RAPIDAPI_KEY=<RapidAPI Token>
 BOT_TOKEN=<From Botfather>
 API_ID=<App api_id>
 API_HASH=<App api_hash>
-BOT_NAME=<Your bot name>
+BOT_NAME=<Your bot name> (Refer to the screenshot above)
 ```
 
 ### Run the chatbot server from the root directory of the repo ###
